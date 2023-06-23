@@ -4,12 +4,14 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     font-size: 18px;
+   
   }
   body{
     display: flex;
     flex-direction: column;
     align-item: center;
     justify-content: center;
+    background-color: black;
   }
   .header{
     height: 80px;
@@ -58,6 +60,7 @@
   }
   #root{
     width: 60%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -103,7 +106,7 @@
     height: 180px;
     display: flex;
     align-item: center;
-    justify-content: space-between;
+    justify-content: center;
   }
   .images{
     max-width: 90%;
